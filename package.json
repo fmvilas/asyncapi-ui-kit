@@ -1,0 +1,37 @@
+{
+  "name": "nextjs-storybook-tailwindcss",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
+  },
+  "dependencies": {
+    "@asyncapi/parser": "^1.5.0",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^9.8.6",
+    "lowlight": "^1.20.0",
+    "next": "10.0.1",
+    "postcss": "^7.0.35",
+    "react": "^17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^6.0.1",
+    "react-syntax-highlighter": "^15.4.3",
+    "sass": "^1.30.0",
+    "storybook-dark-mode": "^1.0.7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^6.2.8",
+    "@storybook/addon-actions": "^6.2.8",
+    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-links": "^6.2.8",
+    "@storybook/react": "^6.2.8",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
