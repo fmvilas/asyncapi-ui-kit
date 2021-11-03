@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { parse } from '@asyncapi/parser'
-import CodeBlock from './CodeBlock'
 import Sidebar from './Sidebar'
 import { AsyncapiContext } from '../contexts/Asyncapi'
 import { Introduction } from './Introduction'
